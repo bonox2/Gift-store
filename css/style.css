@@ -21,7 +21,10 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff");
+}
 html,
 body,
 div,
@@ -146,32 +149,90 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-.container{
+body {
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 400px;
+}
+button {
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+}
+p{
+  font-size: 20px;
+  line-height: 140.62%;
+}
+.container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
-:root{
-  --theme-color:rgb(247, 148, 30);
+:root {
+  --theme-color: rgb(247, 148, 30);
+  --theme-color-2: rgb(241, 241, 242);
+  --txt-color:#fff;
+  --txt-color-2:#000;
 }
-.header-main{
+/* header start  */
+.header-main {
   padding: 35px;
 }
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
 }
-.nav>li:not(:last-child){
+.nav > li:not(:last-child) {
   margin-right: 30px;
 }
-.gift-btn{
+.gift-btn {
   background-color: transparent;
   color: var(--theme-color);
   border: 1px solid var(--theme-color);
   padding: 10px 25px;
   border-radius: 5px;
 }
+/* header end  */
+/* hero start  */
+.hero-main {
+  background: url("../img/hero-top.webp") no-repeat top right,
+    url("../img/hero-bottom.webp") no-repeat bottom left;
+  background-color: var(--theme-color-2);
+  height: 1300px;
+  position: relative;
+}
+.hero-top-content{
+  width: 430px;
+  padding: 155px 845px 135px 162px;
+}
+.hero-title-top {
+  font-size: 56px;
+  line-height: 69px;
+  margin-bottom: 35px;
+}
+.hero-top-btn{
+  margin-top: 50px;
+  color: var(--txt-color);
+  background-color: var(--theme-color);
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+.hero-bottom-content{
+  width: 440px;
+  padding: 165px 166px 105px 833px;
+}
+.hero-title-bottom{
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.hero-bottom-btn{
+  color: var(--theme-color);
+  border: 1px solid var(--theme-color);
+  border-radius: 5px;
+  padding: 15px 45px;
+  margin-top: 35px;
+}
+/* hero end  */
