@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freebie - Gift Store Website Template</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./fonts/webfonts/font" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
@@ -15,23 +15,22 @@
             <a href="index.html" class="logo">
               <img
                 loading="lazy"
-                class="logo-img"
                 src="./img/logo.svg"
-                alt="CloudBudget"
+                alt="logo"
               />
             </a>
             <ul class="nav">
               <li>
-                <a href="#overview">Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li>
-                <a href="#features">About Us</a>
+                <a href="#About Us">About Us</a>
               </li>
               <li>
-                <a href="#technology">Services</a>
+                <a href="#Services">Services</a>
               </li>
               <li>
-                <a href="#contact">Blogs</a>
+                <a href="#Blogs">Blogs</a>
               </li>
             </ul>
             <button class="gift-btn">Gift finder</button>
@@ -52,7 +51,7 @@
             <button class="hero-top-btn hover-reverse">Find gift now</button>
           </div>
           <div class="hero-bottom-content">
-            <h2 class="hero-title-bottom">How we work</h2>
+            <h2>How we work</h2>
             <p>
               We’ve actually already asked hundreds of women what they want, and
               made a database with the results. All you have to do is take our
@@ -60,6 +59,62 @@
               algorithm will match you with a few perfect gift options.
             </p>
             <button class="hero-bottom-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gifts-shop">
+      <div class="container">
+        <div class="gifts-main">
+          <div class="gifts-title">
+            <h2>Gifts for all Occasions</h2>
+            <p>“Try our web app to find the best gifts for all occasions”</p>
+          </div>
+          <div class="gifts">
+            <div class="gift-section">
+              <picture>
+                <source srcset="./img/gifts-1.webp" />
+                <source srcset="./img/gifts-1.jpeg" />
+                <img src="./img/gifts-1.jpg" alt="Birthday" loading="lazy" />
+              </picture>
+              <div class="gift-choose">
+                <h3>Birthday</h3>
+                <a href="">See More ›</a>
+              </div>
+            </div>
+            <div class="gift-section">
+              <picture>
+                <source srcset="./img/gifts-2.webp" />
+                <source srcset="./img/gifts-2.jpeg" />
+                <img src="./img/gifts-2.jpg" alt="Anniversary" loading="lazy" />
+              </picture>
+              <div class="gift-choose">
+                <h3>Anniversary</h3>
+                <a href="">See More ›</a>
+              </div>
+            </div>
+            <div class="gift-section">
+              <picture>
+                <source srcset="./img/gifts-3.webp" />
+                <source srcset="./img/gifts-3.jpeg" />
+                <img src="./img/gifts-3.jpg" alt="Valentine's Day" loading="lazy" />
+              </picture>
+              <div class="gift-choose">
+                <h3>Valentine's Day</h3>
+                <a href="">See More ›</a>
+              </div>
+            </div>
+            <div class="gift-section">
+              <picture>
+                <source srcset="./img/gifts-4.webp" />
+                <source srcset="./img/gifts-4.jpeg" />
+                <img src="./img/gifts-4.jpg" alt="Christmas" loading="lazy" />
+              </picture>
+              <div class="gift-choose">
+                <h3>Christmas</h3>
+                <a href="">See More ›</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -72,11 +127,59 @@
             <span>Sign up or contact us</span>
           </div>
           <div class="contact-btns">
-              <button class="contact-top-btn">Find gift now</button>
-              <button class="contact-bottom-btn">How it works</button>
+            <button class="contact-top-btn">Find gift now</button>
+            <button class="contact-bottom-btn">How it works</button>
           </div>
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+            <nav class="nav-footer">
+              <ul class="ul-footer-top">
+                <li>
+                  <a href="#Home">Home</a>
+                </li>
+                <li>
+                  <a href="#About Us">About Us</a>
+                </li>
+                <a href="index.html" class="logo">
+                  <img
+                    loading="lazy"
+                    src="./img/logo-yellow.svg"
+                    alt="logo"
+                  />
+                </a>
+                <li>
+                  <a href="#Services">Services</a>
+                </li>
+                <li>
+                  <a href="#Blogs">Blogs</a>
+                </li>
+              </ul>
+              
+              <ul class="ul-footer-bottom">
+                <li>
+                  <a href="#overview"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#features"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#technology"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#contact"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#contact"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
