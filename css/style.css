@@ -155,7 +155,6 @@ a {
 }
 body {
   font-family: "Gilroy", sans-serif;
-  margin-bottom: 400px;
   font-size: 20px;
 }
 button {
@@ -341,6 +340,39 @@ h3{
   background-color: var(--color-2);
 }
 /* contact end */
+/* blog start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blog end */
 /* footer start */
 .footer{
   padding: 100px 220px 35px 220px;
@@ -353,13 +385,38 @@ h3{
 }
 .ul-footer-top li{
   font-weight: 600;
+  transition:.3s;
+}
+.ul-footer-top li:hover{
+  color: var(--theme-color);
 }
 .ul-footer-bottom{
-  padding: 50px 350px;
+  padding: 50px 370px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.ul-footer-bottom li{
+.ul-footer-bottom a{
+  color: var(--color);
   background-color: var(--color-2);
   border-radius: 999px;
+  width: 400px;
+  height: 40px;
+  font-size: 24px;
+  transition: .3s;
+  margin-bottom: 70px;
 }
-
+.ul-footer-bottom a:hover{
+  background-color: var(--theme-color);
+}
+.privacy{
+  width: 220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.privacy>span{
+  font-size: 14px;
+}
 /* footer end */
