@@ -181,15 +181,18 @@ p {
 span {
   font-size: 32px;
 }
-a{
+a {
   font-size: 14px;
 }
-h2{
+h2 {
   font-size: 32px;
   margin-bottom: 25px;
 }
-h3{
+h3 {
   font-size: 24px;
+}
+.nav a:hover {
+  color: var(--theme-color);
 }
 .container {
   width: 100%;
@@ -227,7 +230,7 @@ h3{
 }
 /* header end  */
 /* hero start  */
-.hero{
+.hero {
   padding-bottom: 100px;
 }
 .hero-main {
@@ -265,44 +268,44 @@ h3{
 }
 /* hero end  */
 /* gifts start */
-.gifts-main{
+.gifts-main {
   padding: 0 135px 135px 135px;
 }
-.gifts-title{
+.gifts-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 65px;
 }
-.gifts{
-  display:flex;
+.gifts {
+  display: flex;
   justify-content: space-between;
 }
-.gift-section:not(:last-child){
+.gift-section:not(:last-child) {
   margin-right: 30px;
 }
-.gift-section{
+.gift-section {
   width: 270px;
   background-color: #fafafa;
-  transition: .3s;
+  transition: 0.3s;
 }
-.gift-section:hover{
+.gift-section:hover {
   background-color: var(--color);
-  box-shadow: 3px 3px 5px 1px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
-.gift-choose{
+.gift-choose {
   padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.gift-choose a{
+.gift-choose a {
   margin-top: 75px;
-  transition: .3s;
+  transition: 0.3s;
 }
-.gift-choose a:hover{
+.gift-choose a:hover {
   color: var(--theme-color);
-}/* gifts end */
+} /* gifts end */
 /* contact start */
 .contact-main {
   background-color: var(--theme-color);
@@ -324,99 +327,126 @@ h3{
 }
 .contact-btns button {
   border: 1px solid var(--color-2);
-  transition: .3s;
+  transition: 0.3s;
 }
 .contact-top-btn {
   margin-right: 15px;
   background-color: var(--color-2);
   color: var(--color);
-  transition: .3s;
+  transition: 0.3s;
 }
-.contact-top-btn:hover{
+.contact-top-btn:hover {
   color: var(--color-2);
 }
-.contact-bottom-btn:hover{
+.contact-bottom-btn:hover {
   color: var(--color);
   background-color: var(--color-2);
 }
 /* contact end */
 /* blog start */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.blog-main {
+  padding: 80px 135px;
+}
+.blog-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.blog-preview {
+  background: #231f20;
+  width: auto;
+  max-height: 370px;
+  display: flex;
+  color: var(--color);
+  margin-bottom: 40px;
+}
+.blog-preview-info {
+  margin: 50px 0 50px 80px;
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  transition: 0.3s;
+}
+.blog-preview-name {
+  margin-bottom: 30px;
+}
+.blog-preview-title {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+.blog-preview-info a:hover {
+  color: var(--theme-color);
+}
+.blog-info {
+  display: flex;
+}
+.blog-info-section {
+  width: 570px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.blog-info-section:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.blog-info-section > h3 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+}
+.blog-info-section > p {
+  margin-bottom: 25px;
+}
 
 /* blog end */
 /* footer start */
-.footer{
+.footer {
   padding: 100px 220px 35px 220px;
+  background-color: var(--theme-color-2);
 }
-.ul-footer-top{
+.ul-footer-top {
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid gray;
   padding: 45px 180px;
 }
-.ul-footer-top li{
+.ul-footer-top li {
   font-weight: 600;
-  transition:.3s;
+  transition: 0.3s;
 }
-.ul-footer-top li:hover{
+.ul-footer-top li:hover {
   color: var(--theme-color);
 }
-.ul-footer-bottom{
+.ul-footer-bottom {
   padding: 50px 370px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.ul-footer-bottom a{
+.ul-footer-bottom a {
   color: var(--color);
   background-color: var(--color-2);
   border-radius: 999px;
   width: 400px;
   height: 40px;
   font-size: 24px;
-  transition: .3s;
+  transition: 0.3s;
   margin-bottom: 70px;
 }
-.ul-footer-bottom a:hover{
+.ul-footer-bottom a:hover {
   background-color: var(--theme-color);
 }
-.privacy{
+.privacy {
   width: 220px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
-.privacy>span{
+.privacy > span {
   font-size: 14px;
 }
 /* footer end */
