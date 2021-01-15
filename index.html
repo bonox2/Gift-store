@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preload" href="./css/style.css" as="style" />
+    <link rel="preload" href="./css/all.css" as="style" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freebie - Gift Store Website Template</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/all.css" />
-    <link rel="stylesheet" href="./fonts/webfonts/" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-main">
-          <nav class="nav">
-            <a href="index.html" class="logo">
-              <img loading="lazy" src="./img/logo.svg" alt="logo" />
-            </a>
-            <ul class="nav">
-              <li>
-                <a href="#Home">Home</a>
-              </li>
-              <li>
-                <a href="#About Us">About Us</a>
-              </li>
-              <li>
-                <a href="#Services">Services</a>
-              </li>
-              <li>
-                <a href="#Blogs">Blogs</a>
-              </li>
-            </ul>
-            <button class="gift-btn">Gift finder</button>
-          </nav>
-        </div>
+    <header class="header">
+      <div class="container-wide">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img loading="lazy" src="./img/logo.svg" alt="logo" width="43" height="32" />
+          </a>
+          <ul class="nav">
+            <li>
+              <a href="#Home">Home</a>
+            </li>
+            <li>
+              <a href="#AboutUs">About Us</a>
+            </li>
+            <li>
+              <a href="#Services">Services</a>
+            </li>
+            <li>
+              <a href="#Blogs">Blogs</a>
+            </li>
+          </ul>
+          <button class="gift-btn">Gift finder</button>
+        </nav>
       </div>
     </header>
     <section class="hero">
-      <div class="container">
-        <div class="hero-main">
-          <div class="hero-top-content">
-            <h1 class="hero-title-top">
-              Find a gift for your wife or girlfriend
-            </h1>
-            <p class="hero-top-txt">
-              Struggling to find a gift for your wife or girlfriend? No problem!
-            </p>
+      <div class="container-wide">
+        <div class="hero-row reverse">
+          <img
+            src="img/hero-top.webp"
+            alt="Find a gift for your wife or girlfriend"
+            class="hero-img"
+            loading="lazy"
+            width="1"
+            height="1"
+          />
+          <div class="hero-content">
+            <div>
+              <h1 class="hero-title-top">Find a gift for your wife or girlfriend</h1>
+            <p class="hero-top-txt">Struggling to find a gift for your wife or girlfriend? No problem!</p>
             <button class="hero-top-btn hover-reverse">Find gift now</button>
+            </div>
           </div>
-          <div class="hero-bottom-content">
-            <h2>How we work</h2>
+        </div>
+        <div class="hero-row">
+          <img
+            src="img/hero-bottom.webp"
+            alt="All
+          you have to do is take our short survey that only takes seconds"
+            class="hero-img"
+            loading="lazy"
+            width="1"
+            height="1"
+          />
+          <div class="hero-content">
+            <div>
+              <h2>How we work</h2>
             <p>
-              We’ve actually already asked hundreds of women what they want, and
-              made a database with the results. All you have to do is take our
-              short survey that only takes seconds, and our proprietary
-              algorithm will match you with a few perfect gift options.
+              We’ve actually already asked hundreds of women what they want, and made a database with the results. All
+              you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match
+              you with a few perfect gift options.
             </p>
             <button class="hero-bottom-btn">Learn More</button>
+            </div>
           </div>
         </div>
       </div>
@@ -69,51 +86,31 @@
           </div>
           <div class="gifts">
             <div class="gift-section">
-              <picture>
-                <source srcset="./img/gifts-1.webp" />
-                <source srcset="./img/gifts-1.jpeg" />
-                <img src="./img/gifts-1.jpg" alt="Birthday" loading="lazy" />
-              </picture>
+              <img width="1" height="1" src="./img/gifts-1.jpg" alt="Birthday" loading="lazy" />
               <div class="gift-choose">
                 <h3>Birthday</h3>
-                <div><a href="">See More ›</a></div>
+                <a href="">See More ›</a>
               </div>
             </div>
             <div class="gift-section">
-              <picture>
-                <source srcset="./img/gifts-2.webp" />
-                <source srcset="./img/gifts-2.jpeg" />
-                <img src="./img/gifts-2.jpg" alt="Anniversary" loading="lazy" />
-              </picture>
+              <img width="1" height="1" src="./img/gifts-2.jpg" alt="Birthday" loading="lazy" />
               <div class="gift-choose">
                 <h3>Anniversary</h3>
-                <div><a href="">See More ›</a></div>
+                <a href="">See More ›</a>
               </div>
             </div>
             <div class="gift-section">
-              <picture>
-                <source srcset="./img/gifts-3.webp" />
-                <source srcset="./img/gifts-3.jpeg" />
-                <img
-                  src="./img/gifts-3.jpg"
-                  alt="Valentine's Day"
-                  loading="lazy"
-                />
-              </picture>
+              <img width="1" height="1" src="./img/gifts-3.jpg" alt="Birthday" loading="lazy" />
               <div class="gift-choose">
                 <h3>Valentine's Day</h3>
-                <div><a href="">See More ›</a></div>
+               <a href="">See More ›</a>
               </div>
             </div>
             <div class="gift-section">
-              <picture>
-                <source srcset="./img/gifts-4.webp" />
-                <source srcset="./img/gifts-4.jpeg" />
-                <img src="./img/gifts-4.jpg" alt="Christmas" loading="lazy" />
-              </picture>
+              <img width="1" height="1" src="./img/gifts-4.jpg" alt="Birthday" loading="lazy" />
               <div class="gift-choose">
                 <h3>Christmas</h3>
-                <div><a href="">See More ›</a></div>
+                <a href="">See More ›</a>
               </div>
             </div>
           </div>
@@ -122,7 +119,6 @@
     </section>
     <section class="contact">
       <div class="container">
-        <div class="contact-main">
           <div class="contact-info">
             <span>Ready to get started?</span>
             <span>Sign up or contact us</span>
@@ -132,7 +128,6 @@
             <button class="contact-bottom-btn">How it works</button>
           </div>
         </div>
-      </div>
     </section>
 
     <section class="blog">
@@ -140,20 +135,13 @@
         <div class="blog-main">
           <div class="blog-title">
             <h2>Our Best Blogs Ever</h2>
-            <p>
-              “Try our blog to find the best tips and tricks to select your
-              gift”
-            </p>
+            <p>“Try our blog to find the best tips and tricks to select your gift”</p>
           </div>
           <div class="blog-preview">
             <picture>
               <source srcset="./img/blog.webp" />
               <source srcset="./img/blog.jpeg" />
-              <img
-                src="./img/blog.jpg"
-                alt="happy man and woman"
-                loading="lazy"
-              />
+              <img src="./img/blog.jpg" alt="happy man and woman" loading="lazy" />
             </picture>
             <div class="blog-preview-info">
               <p class="blog-preview-name">Mr. John Doe</p>
@@ -165,18 +153,16 @@
             <div class="blog-info-section">
               <h3>Database to find the gifts for your girlfriend</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore...
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore...
               </p>
               <div><a href="">Read more</a></div>
             </div>
             <div class="blog-info-section">
-              <h3>
-                How Artificial Intelligence read your mind to find the best gift
-              </h3>
+              <h3>How Artificial Intelligence read your mind to find the best gift</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore...
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore...
               </p>
               <div><a href="">Read more</a></div>
             </div>
@@ -226,9 +212,7 @@
           </nav>
         </div>
       </div>
-      <p class="privacy">
-        <span>© 2010 — 2020</span><span>Privacy — Terms</span>
-      </p>
+      <p class="privacy"><span>© 2010 — 2020</span><span>Privacy — Terms</span></p>
     </footer>
   </body>
 </html>
