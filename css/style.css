@@ -462,7 +462,7 @@ h3 {
 /* blog end */
 /* footer start */
 .footer {
-  padding: 100px 220px 35px 220px;
+  padding: 100px 0 35px 0;
   background-color: var(--theme-color-2);
 }
 .ul-footer-top {
@@ -488,12 +488,15 @@ h3 {
 .ul-footer-bottom a {
   color: var(--color);
   background-color: var(--color-2);
-  border-radius: 999px;
-  width: 400px;
+  border-radius: 50%;
+  width: 40px;
   height: 40px;
   font-size: 24px;
   transition: 0.3s;
   margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ul-footer-bottom a:hover {
   background-color: var(--theme-color);
