@@ -206,15 +206,9 @@ p {
 span {
   font-size: 32px;
 }
-a {
-  font-size: 18px;
-}
-h2 {
+.section-title {
   font-size: 32px;
   margin-bottom: 25px;
-}
-h3 {
-  font-size: 24px;
 }
 
 .container {
@@ -247,6 +241,7 @@ h3 {
 }
 .nav a {
   transition: 0.3s;
+  font-size: 18px;
 }
 .nav a:hover {
   color: var(--theme-color);
@@ -309,9 +304,6 @@ h3 {
 }
 /* hero end  */
 /* gifts start */
-/* .gifts-main {
-  padding: 0 135px 135px 135px;
-} */
 .gifts-shop{
   padding-top: 100px;
   padding-bottom: 135px;
@@ -333,6 +325,9 @@ h3 {
   transition: 0.3s;
   display: flex;
   flex-direction: column;
+}
+.gift-section>h3{
+  font-size: 24px;
 }
 .gift-section>img{
   width: 100%;
