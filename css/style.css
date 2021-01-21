@@ -235,14 +235,14 @@ h3 {
 }
 /* header start  */
 .header {
-  padding: 35px 0;
+  padding: 35px;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav > li:not(:last-child) {
+.nav > li{
   margin-right: 30px;
 }
 .nav a {
@@ -412,7 +412,7 @@ h3 {
   margin-bottom: 70px;
 }
 .blogs-img{
-  width: 100%;
+  width: 400px;
   height: auto;
 }
 .blog-preview {
@@ -468,10 +468,12 @@ h3 {
   background-color: var(--theme-color-2);
 }
 .ul-footer-top {
+  width: 75%;
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid gray;
-  padding: 45px 180px;
+  padding: 45px 0;
+  margin: 0 auto;
 }
 .ul-footer-top li {
   font-weight: 600;
@@ -482,7 +484,7 @@ h3 {
 }
 .ul-footer-bottom {
   margin: 55px auto 0 auto;
-  width: 300px;
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -520,7 +522,11 @@ h3 {
 
 
 @media (max-width:1199.98px){
+  .header{
+    padding: 20px;
+  }
   .container{
+    max-width: 960px;
     padding: 0 20px;
   }
   .gift-section{
@@ -531,4 +537,96 @@ h3 {
   }
 }
 @media (max-width:991.98px){
+  .container{
+    max-width: 720px;
+  }
+  .hero-row.reverse{
+    padding-left: 20px;
+  }
+  .hero-title-top{
+    font-size: 42px;
+    margin-bottom: 25px;
+  }
+  .hero-top-btn{
+    margin-top: 30px;
+  }
+  .hero-content p {
+    font-size: 18px;
+  }
+  .contact-info{
+    width: 250px;
+  }
+  .blog-preview-title{
+    font-size: 40px;
+  }
+  .blog-preview-info{
+    margin: 40px;
+  }
 }
+@media (max-width:767.98px){
+  .container{
+    width: 100%;
+    padding: 0 15px;
+  }
+  nav.nav{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  ul.nav{
+    padding: 30px 0;
+    width: 90%;
+  }
+  .gift-choose{
+    padding: 12px;
+  }
+  .gift-choose h3{
+    font-size: 18px;
+  }
+  .blogs-img{
+    width: 300px;
+  }
+  .blog-preview-title{
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .blog-preview-info{
+    margin: 30px;
+  }
+  .ul-footer-bottom{
+    width: 60%;
+  }
+}
+@media (max-width:575.98px){
+  ul.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  ul.nav>li{
+    width: 40%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .gifts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gift-section{
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .contact>.container{
+    display:flex;
+    flex-direction: column;
+  }
+  .contact-btns{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-top-btn{
+    margin-right: 0;
+    margin: 20px 0;
+  }
+}
+@media (max-width:320px){}
