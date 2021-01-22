@@ -507,9 +507,10 @@ span {
   display: flex;
   justify-content: space-between;
 }
-.privacy > span {
+.privacy > a,p {
   font-size: 14px;
   margin-bottom: 35px;
+  align-items: center;
 }
 /* footer end */
 
@@ -577,6 +578,32 @@ span {
   .gift-choose h3{
     font-size: 18px;
   }
+  .gifts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gift-section{
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .contact-info{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .contact>.container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .contact-btns{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-top-btn{
+    margin-right: 0;
+  }
   .blogs-img{
     width: 300px;
   }
@@ -586,6 +613,9 @@ span {
   }
   .blog-preview-info{
     margin: 30px;
+  }
+  .blog-info-section{
+    padding: 15px;
   }
   .ul-footer-bottom{
     width: 60%;
