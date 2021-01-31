@@ -203,9 +203,6 @@ button.hover-reverse:hover {
 p {
   line-height: 1.4;
 }
-span {
-  font-size: 32px;
-}
 .section-title {
   font-size: 32px;
   margin-bottom: 25px;
@@ -369,6 +366,7 @@ span {
 .contact-info {
   display: flex;
   flex-direction: column;
+  font-size: 32px;
 }
 .contact-info :first-child {
   font-weight: 600;
@@ -510,6 +508,10 @@ span {
   font-size: 14px;
   margin-bottom: 35px;
   align-items: center;
+  transition: .3s;
+}
+.privacy a :hover{
+  color: var(--theme-color);
 }
 /* footer end */
 
@@ -679,7 +681,18 @@ span {
     flex-direction: column;
   }
   .blog-info-section{
-    width: 80%;
+    width: 100%;
+  }
+  .gifts{
+    display: flex;
+  }
+  .gift-section{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact-info{
+    width: 190px;
+    margin: 0 auto;
   }
   .ul-footer-top{
     width: 100px;
